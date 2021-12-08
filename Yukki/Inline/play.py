@@ -163,9 +163,9 @@ def secondary_markup(videoid, user_id):
         ],
         [
             InlineKeyboardButton(
-                text="", callback_data=f"other {videoid}|{user_id}"
+                text="📡 Uᴘᴅᴀᴛᴇs", callback_data=f"other {videoid}|{user_id}"
             ),
-            InlineKeyboardButton(text="🗑 Close Menu", callback_data=f"close"),
+            InlineKeyboardButton(text="🗑 Cʟᴏsᴇ", callback_data=f"close"),
         ],
     ]
     return buttons
