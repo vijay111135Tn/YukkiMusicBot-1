@@ -8,16 +8,16 @@ def url_markup(videoid, duration, user_id, query, query_type):
     buttons = [
         [
             InlineKeyboardButton(
-                text="❮",
-                callback_data=f"slider B|{query_type}|{query}|{user_id}",
+                text="",
+                callback_data=f"",
             ),
             InlineKeyboardButton(
-                text="Play Now",
+                text="Yes,Play This Song On Vc ",
                 callback_data=f"Yukki {videoid}|{duration}|{user_id}",
             ),
             InlineKeyboardButton(
-                text="❯",
-                callback_data=f"slider F|{query_type}|{query}|{user_id}",
+                text="",
+                callback_data=f"",
             ),
         ],
         [
@@ -156,14 +156,14 @@ def search_markup2(
 def secondary_markup(videoid, user_id):
     buttons = [
         [
-            InlineKeyboardButton(text="▶️", callback_data=f"resumecb"),
-            InlineKeyboardButton(text="⏸️", callback_data=f"pausecb"),
-            InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
-            InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
+            InlineKeyboardButton(text="🔗 More Menu", callback_data=f"other {videoid}|{user_id}"),
+            InlineKeyboardButton(text="", callback_data=f""),
+            InlineKeyboardButton(text="", callback_data=f""),
+            InlineKeyboardButton(text="🚨 Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/pytgMusicSupport"),
         ],
         [
             InlineKeyboardButton(
-                text="🔗 More Menu", callback_data=f"other {videoid}|{user_id}"
+                text="", callback_data=f"other {videoid}|{user_id}"
             ),
             InlineKeyboardButton(text="🗑 Close Menu", callback_data=f"close"),
         ],
