@@ -15,7 +15,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
+                    text="🔧 𝐒𝐞𝐭𝐭𝐢𝐧𝐠𝐬", callback_data="settingm"
                 )
             ],
         ]
@@ -29,7 +29,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
+                    text="🔧 𝐒𝐞𝐭𝐭𝐢𝐧𝐠𝐬", callback_data="settingm"
                 )
             ],
             [
@@ -67,7 +67,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
+                    text="🔧 𝐒𝐞𝐭𝐭𝐢𝐧𝐠𝐬", callback_data="settingm"
                 )
             ],
             [
