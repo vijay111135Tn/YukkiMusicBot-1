@@ -12,7 +12,7 @@ def url_markup(videoid, duration, user_id, query, query_type):
                 callback_data=f"",
             ),
             InlineKeyboardButton(
-                text="Yes,Play This Song in Vc ▶️",
+                text="Yᴇs,Pʟᴀʏ Tʜɪs Sᴏɴɢ Iɴ Vᴄ",
                 callback_data=f"Yukki {videoid}|{duration}|{user_id}",
             ),
             InlineKeyboardButton(
@@ -22,11 +22,11 @@ def url_markup(videoid, duration, user_id, query, query_type):
         ],
         [
             InlineKeyboardButton(
-                text="🔎 More Results",
+                text="🔎 Mᴏʀᴇ Rᴇsᴜʟᴛs",
                 callback_data=f"Search {query}|{user_id}",
             ),
             InlineKeyboardButton(
-                text="🗑 Close Search",
+                text="🗑 Cʟᴏsᴇ",
                 callback_data=f"forceclose {query}|{user_id}",
             ),
         ],
