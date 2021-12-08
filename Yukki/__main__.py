@@ -121,7 +121,7 @@ async def initiate_bot():
 
 home_text_pm = f"""Hᴇʟʟᴏ ,
 Mʏ Nᴀᴍᴇ Is {BOT_NAME}.
-A Tᴇʟᴇɢʀᴀᴍ Mᴜsɪᴄ Bᴏᴛ Aʟʟᴏᴡs Yᴏᴜ Tᴏ Pʟᴀʏ Mᴜsɪᴄ Oɴ Gʀᴏᴜᴘs Tʜʀᴏᴜɢʜ Tʜᴇ Nᴇᴡ Tᴇʟᴇɢʀᴀᴍ's Vᴏɪᴄᴇ Cʜᴀᴛs Pᴏᴡᴇʀ Bʏ⚡[PʏTɢM𝐮𝐬𝐢𝐜](https://t.me/tgcalls_MusicXchat)!.
+A Tᴇʟᴇɢʀᴀᴍ Mᴜsɪᴄ Bᴏᴛ Aʟʟᴏᴡs Yᴏᴜ Tᴏ Pʟᴀʏ Mᴜsɪᴄ Oɴ Gʀᴏᴜᴘs Tʜʀᴏᴜɢʜ Tʜᴇ Nᴇᴡ Tᴇʟᴇɢʀᴀᴍ's Vᴏɪᴄᴇ Cʜᴀᴛs Pᴏᴡᴇʀ Bʏ⚡[PʏTɢM𝐮𝐬𝐢𝐜](t.me/tgcalls_MusicXchat)!.
 
 Mᴀᴅᴇ Wɪᴛʜ ❤️ Bʏ [𝐕𝐢𝐣𝐚𝐲](t.me/Attitude_king_vj)"""
 
