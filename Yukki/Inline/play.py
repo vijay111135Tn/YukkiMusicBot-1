@@ -12,7 +12,7 @@ def url_markup(videoid, duration, user_id, query, query_type):
                 callback_data=f"",
             ),
             InlineKeyboardButton(
-                text="Yes,Play This Song On Vc ",
+                text="Yes,Play This Song in Vc🥳",
                 callback_data=f"Yukki {videoid}|{duration}|{user_id}",
             ),
             InlineKeyboardButton(
@@ -210,7 +210,7 @@ def timer_markup(videoid, user_id, current_time, total_time):
             InlineKeyboardButton(text="⚒️ Mᴇɴᴜ", callback_data=f"other {videovideoid}|{user_idid}|{user_id}"),
             InlineKeyboardButton(text="", callback_data=f"pausecb"),
             InlineKeyboardButton(text="", callback_data=f"skipcb"),
-            InlineKeyboardButton(text="🚨 ", callback_data=f"stopcb"),
+            InlineKeyboardButton(text="🚨 ", url=f"https://t.me/pytgMusicSupport"),
         ],
         [
             InlineKeyboardButton(
