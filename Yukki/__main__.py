@@ -119,7 +119,7 @@ async def initiate_bot():
     console.print(f"\n[red]Stopping Bot")
 
 
-home_text_pm = f"""Hᴇʟʟᴏ {message.from_user.mention}!
+home_text_pm = f"""Hᴇʟʟᴏ,
 Mʏ Nᴀᴍᴇ Is {BOT_NAME}.
 A Tᴇʟᴇɢʀᴀᴍ Mᴜsɪᴄ Bᴏᴛ Aʟʟᴏᴡs Yᴏᴜ Tᴏ Pʟᴀʏ Mᴜsɪᴄ Oɴ Gʀᴏᴜᴘs Tʜʀᴏᴜɢʜ Tʜᴇ Nᴇᴡ Tᴇʟᴇɢʀᴀᴍ's Vᴏɪᴄᴇ Cʜᴀᴛs Pᴏᴡᴇʀ Bʏ⚡[PʏTɢM𝐮𝐬𝐢𝐜](t.me/tgcalls_MusicXchat)!.
 
