@@ -48,12 +48,12 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="🔧 s", callback_data="settingm"
+                    text="🔧 𝐒𝐞𝐭𝐭𝐢𝐧𝐠𝐬", callback_data="settingm"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="📢 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url=f"{SUPPORT_CHANNEL}"
                 ),
             ],
         ]
