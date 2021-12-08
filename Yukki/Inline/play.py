@@ -183,14 +183,14 @@ def primary_markup(videoid, user_id, current_time, total_time):
             )
         ],
         [
-            InlineKeyboardButton(text="▶️", callback_data=f"resumecb"),
-            InlineKeyboardButton(text="⏸️", callback_data=f"pausecb"),
-            InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
-            InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
+            InlineKeyboardButton(text="⚒️ Mᴇɴᴜ", callback_data=f"other {videoid}|{user_id}"),
+            InlineKeyboardButton(text="", callback_data=f"pausecb"),
+            InlineKeyboardButton(text="", callback_data=f"skipcb"),
+            InlineKeyboardButton(text="🚨 Sᴜᴘᴘᴏʀᴛ", url=f""),
         ],
         [
             InlineKeyboardButton(
-                text="🔗 More Menu", callback_data=f"other {videoid}|{user_id}"
+                text="", url=f""
             ),
             InlineKeyboardButton(text="🗑 Close Menu", callback_data=f"close"),
         ],
