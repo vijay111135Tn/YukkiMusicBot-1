@@ -178,7 +178,7 @@ def primary_markup(videoid, user_id, current_time, total_time):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f",
+                text=f"",
                 callback_data=f"",
             )
         ],
