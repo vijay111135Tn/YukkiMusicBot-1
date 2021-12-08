@@ -214,7 +214,7 @@ def timer_markup(videoid, user_id, current_time, total_time):
         ],
         [
             InlineKeyboardButton(
-                text="📡 Uᴘᴅᴀᴛᴇs", url=f"https://t.me/pytgcalls_logs"
+                text="📡 Uᴘᴅᴀᴛᴇs", url=f"https://t.me/tgcalls_Music_update"
             ),
             InlineKeyboardButton(text="🗑 Cʟᴏsᴇ", callback_data=f"close"),
         ],
