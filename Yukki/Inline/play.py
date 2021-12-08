@@ -12,7 +12,7 @@ def url_markup(videoid, duration, user_id, query, query_type):
                 callback_data=f"",
             ),
             InlineKeyboardButton(
-                text="Yes,Play This Song in Vc🥳",
+                text="Yes,Play This Song in Vc ▶️",
                 callback_data=f"Yukki {videoid}|{duration}|{user_id}",
             ),
             InlineKeyboardButton(
