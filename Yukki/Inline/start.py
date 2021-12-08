@@ -72,7 +72,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="📢 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
                     text="😈 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐬𝐮𝐩𝐩𝐨𝐫𝐭", url=f"{SUPPORT_GROUP}"
@@ -133,7 +133,7 @@ def private_panel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="📢 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url=f"{SUPPORT_CHANNEL}"
                 ),
             ],
         ]
@@ -153,7 +153,7 @@ def private_panel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="📢 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
                     text="😈 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐬𝐮𝐩𝐩𝐨𝐫𝐭", url=f"{SUPPORT_GROUP}"
