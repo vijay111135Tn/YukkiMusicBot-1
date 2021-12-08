@@ -80,7 +80,7 @@ async def useradd(_, message: Message):
     await asyncio.gather(
         message.delete(),
         message.reply_text(
-            f"Thanks for having me in {message.chat.title}.\n{MUSIC_BOT_NAME} is alive.\n\nFor any assistance or help, checkout our support group and channel.",
+            f"Thanks for having me in {message.chat.title}.\n{MUSIC_BOT_NAME} is alive.\n\nMy Master:[Vijay](t.me/Attitude_king_vj)\n\nFor any assistance or help, checkout our support group and channel.",
             reply_markup=InlineKeyboardMarkup(out[1]),
         ),
     )
@@ -91,7 +91,7 @@ async def okaybhai(_, CallbackQuery):
     await CallbackQuery.answer("Going Back ...")
     out = start_pannel()
     await CallbackQuery.edit_message_text(
-        text=f"Thanks for having me in {CallbackQuery.message.chat.title}.\n{MUSIC_BOT_NAME}is alive.\n\nFor any assistance or help, checkout our support group and channel.",
+        text=f"Thanks for having me in {CallbackQuery.message.chat.title}.\n{MUSIC_BOT_NAME}is alive.\n\nMy Master:[Vijay](t.me/Attitude_king_vj)\n\nFor any assistance or help, checkout our support group and channel.",
         reply_markup=InlineKeyboardMarkup(out[1]),
     )
 
