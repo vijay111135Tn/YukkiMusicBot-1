@@ -34,7 +34,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="", url=f"{SUPPORT_GROUP}"
+                    text="😈 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐬𝐮𝐩𝐩𝐨𝐫𝐭", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -48,7 +48,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
+                    text="🔧 s", callback_data="settingm"
                 )
             ],
             [
@@ -75,7 +75,7 @@ def start_pannel():
                     text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="😈 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐬𝐮𝐩𝐩𝐨𝐫𝐭", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -113,7 +113,7 @@ def private_panel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="😈 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐬𝐮𝐩𝐩𝐨𝐫𝐭", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -156,7 +156,7 @@ def private_panel():
                     text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="😈 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐬𝐮𝐩𝐩𝐨𝐫𝐭", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
