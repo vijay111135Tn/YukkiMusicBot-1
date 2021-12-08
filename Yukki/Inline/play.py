@@ -208,15 +208,15 @@ def timer_markup(videoid, user_id, current_time, total_time):
         ],
         [
             InlineKeyboardButton(text="⚒️ Mᴇɴᴜ", callback_data=f"other {videovideoid}|{user_idid}|{user_id}"),
-            InlineKeyboardButton(text="", callback_data=f"pausecb"),
-            InlineKeyboardButton(text="", callback_data=f"skipcb"),
-            InlineKeyboardButton(text="🚨 ", url=f"https://t.me/pytgMusicSupport"),
+            InlineKeyboardButton(text="", callback_data=f""),
+            InlineKeyboardButton(text="", callback_data=f""),
+            InlineKeyboardButton(text="🚨 Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/pytgMusicSupport"),
         ],
         [
             InlineKeyboardButton(
-                text="", url=f""
+                text="📡 Uᴘᴅᴀᴛᴇs", url=f"https://t.me/pytgcalls_logs"
             ),
-            InlineKeyboardButton(text="🗑 Close Menu", callback_data=f"close"),
+            InlineKeyboardButton(text="🗑 Cʟᴏsᴇ", callback_data=f"close"),
         ],
     ]
     return buttons
@@ -239,7 +239,7 @@ def audio_markup(videoid, user_id, current_time, total_time):
             InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
             InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
         ],
-        [InlineKeyboardButton(text="🗑 Close Menu", callback_data=f"close")],
+        [InlineKeyboardButton(text="🗑 Cʟᴏsᴇ", callback_data=f"close")],
     ]
     return buttons
 
@@ -258,7 +258,7 @@ def audio_timer_markup_start(videoid, user_id, current_time, total_time):
             InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
             InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
         ],
-        [InlineKeyboardButton(text="🗑 Close Menu", callback_data=f"close")],
+        [InlineKeyboardButton(text="🗑 Cʟᴏsᴇ", callback_data=f"close")],
     ]
     return buttons
 
@@ -271,6 +271,6 @@ audio_markup2 = InlineKeyboardMarkup(
             InlineKeyboardButton(text="⏭️", callback_data=f"skipcb"),
             InlineKeyboardButton(text="⏹️", callback_data=f"stopcb"),
         ],
-        [InlineKeyboardButton("🗑 Close Menu", callback_data="close")],
+        [InlineKeyboardButton("🗑 Cʟᴏsᴇ", callback_data="close")],
     ]
 )
