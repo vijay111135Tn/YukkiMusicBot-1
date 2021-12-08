@@ -156,14 +156,14 @@ def search_markup2(
 def secondary_markup(videoid, user_id):
     buttons = [
         [
-            InlineKeyboardButton(text="🔗 More Menu", callback_data=f"other {videoid}|{user_id}"),
+            InlineKeyboardButton(text="⚒️ Mᴇɴᴜ", callback_data=f"other {videoid}|{user_id}"),
             InlineKeyboardButton(text="", callback_data=f""),
             InlineKeyboardButton(text="", callback_data=f""),
             InlineKeyboardButton(text="🚨 Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/pytgMusicSupport"),
         ],
         [
             InlineKeyboardButton(
-                text="📡 Uᴘᴅᴀᴛᴇs", callback_data=f"other {videoid}|{user_id}"
+                text="📡 Uᴘᴅᴀᴛᴇs", callback_data=f"https://t.me/tgcalls_Music_update"
             ),
             InlineKeyboardButton(text="🗑 Cʟᴏsᴇ", callback_data=f"close"),
         ],
