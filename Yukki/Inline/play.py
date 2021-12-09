@@ -12,7 +12,7 @@ def url_markup(videoid, duration, user_id, query, query_type):
                 callback_data=f"",
             ),
             InlineKeyboardButton(
-                text="Yᴇs,Pʟᴀʏ Tʜɪs Sᴏɴɢ Iɴ Vᴄ",
+                text="▶️ Yᴇs,Pʟᴀʏ Tʜɪs Sᴏɴɢ Iɴ Vᴄ",
                 callback_data=f"Yukki {videoid}|{duration}|{user_id}",
             ),
             InlineKeyboardButton(
